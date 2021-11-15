@@ -25,7 +25,7 @@
 // modified for SDFS by WMXZ
 //#define T4_USE_SIMPLE_SEND_OBJECT
 
-#if defined(USB_MTPDISK) || defined(USB_MTPDISK_SERIAL)
+#if defined(USB_MTPDISK) || defined(USB_MTPDISK_MIDI) || defined(USB_MTPDISK_SERIAL)
 
 #include "MTP_Teensy.h"
 #undef USB_DESC_LIST_DEFINE

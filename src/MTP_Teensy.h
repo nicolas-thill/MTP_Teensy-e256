@@ -28,7 +28,7 @@
 #ifndef MTP_TEENSY_H
 #define MTP_TEENSY_H
 
-#if !defined(USB_MTPDISK) && !defined(USB_MTPDISK_SERIAL)
+#if !defined(USB_MTPDISK) && !defined(USB_MTPDISK_MIDI) && !defined(USB_MTPDISK_SERIAL)
 #error "You need to select USB Type: 'MTP Disk (Experimental)'"
 #endif
 
